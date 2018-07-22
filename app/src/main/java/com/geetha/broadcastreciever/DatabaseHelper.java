@@ -30,7 +30,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String CREATE_TABLE_STMT =
             "CREATE TABLE " + TABLE_NAME + "("
             + COL_SENDER + " VARCHAR(14), "
-            + COL_SMS_DATE + " VARCHAR(10), "
+            + COL_SMS_DATE + " VARCHAR(10), "     //ll
             + COL_SMS_TEXT + " VARCHAR(160)"
             + ")";
 
